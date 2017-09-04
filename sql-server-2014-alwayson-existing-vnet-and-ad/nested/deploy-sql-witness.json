@@ -46,6 +46,7 @@
           "configurationFunction": "[variables('fswConfigurationFunction')]",
           "properties": {
             "domainName": "[parameters('domainName')]",
+             "sharePath": "[parameters('sharePath')]",
             "adminCreds": {
               "userName": "[parameters('adminUsername')]",
               "password": "PrivateSettingsRef:adminPassword"
