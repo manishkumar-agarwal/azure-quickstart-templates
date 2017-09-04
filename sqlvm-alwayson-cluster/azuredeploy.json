@@ -160,6 +160,7 @@
     "sqlStorageAccountType": {
       "type": "string",
       "allowedValues": [
+        "Standard_LRS",
         "Premium_LRS"
       ],
       "metadata": {
