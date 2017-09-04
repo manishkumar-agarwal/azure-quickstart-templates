@@ -166,7 +166,7 @@
       "metadata": {
         "description": "The type of the Sql Server Storage Account created"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     },
     "dcStorageAccountName": {
       "type": "string",
